@@ -12,10 +12,10 @@ var gulp = require('gulp'),
 
 
 const DIR = {
-		ROOT   : "./public/",
+		ROOT   : "./docs/",
 		PUBLIC : {
-			JS  : "./public/assets/js",
-			CSS : "./public/assets/css"
+			JS  : "./docs/assets/js",
+			CSS : "./docs/assets/css"
 		},
 		SOURCE : {
 			ES6  : "./source/es6",
