@@ -1,0 +1,96 @@
+body{
+	width: 100%;
+	font-family: "Kazesawa-Regular";
+	.left-side{
+		padding-right: 0;
+	}
+	.right-side{
+		// background-color: #eee;
+		padding-left: 0;
+		margin-left: 30px;
+		margin-top: 20px;
+		.content-title{
+			font-size: 24px;
+			font-family: "Kazesawa-Bold";
+		}
+		.icon-title{
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			background-color: #21aba5;
+			color: #fff;
+			margin-right: 20px;
+		}
+		.exp{
+			.content-text{
+				& > ul{
+					margin-top: 20px;
+					& > li{
+						font-size: 16px;
+						font-family: "Kazesawa-Semibold";
+						position: relative;
+						margin-left: 44px;
+						color: #000;
+						&:hover{
+							color : #e07a5f;
+							span{
+								color: #000;
+							}
+							&:before{
+								animation: circle 1.2s infinite;
+							}
+						}
+						&:before, &:after{
+							content: "";
+					    display: block;
+					    position: absolute;
+						}
+						&:before{
+							width: 13px;
+					    height: 13px;
+					    border: 3px solid #3d405b;
+					    background: #fcfcfc;
+					    border-radius: 50%;
+					    left: -24px;
+					    top: 5px;
+					    z-index: 1;
+						}
+						&:after{
+							width: 3px;
+							height: 100%;
+							background: #3d405b;
+							left: -19px;
+							top: 5px;
+						}
+						span{
+							font-family: "Kazesawa-Regular";
+							display: block;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+
+		@keyframes circle {
+		  from {
+		    box-shadow: 0 0 0 0px #3d405b;
+		  }
+		  to {
+		    box-shadow: 0 0 0 6px rgba(61, 64, 91, 0);
+		  }
+		}
+	}
+	.profile{
+		margin-top: 30px;
+		padding: 0 18px;
+		.title{
+			font-size: 20px;
+			font-family: "Kazesawa-Bold";
+			margin-bottom: 10px;
+		}
+		.text{
+			font-size: 14px;
+		}
+	}
+}

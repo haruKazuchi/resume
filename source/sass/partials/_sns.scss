@@ -1,0 +1,26 @@
+.profile-sns{
+	.sns-title{
+
+	}
+	.sns-content{
+		& > ul{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			& > li{
+				width: 100px;
+				height: 100px;
+				text-align: center;
+				margin: 0 auto;
+				animation-iteration-count: infinite;
+				& > a {
+					display: block;
+					color: inherit;
+					& > i{
+						font-size: 100px;
+					}
+				}
+			}
+		}
+	}
+}

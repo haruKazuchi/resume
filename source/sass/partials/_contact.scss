@@ -1,0 +1,21 @@
+.profile-contact{
+	.contact-title{
+	}
+	.contact-content{
+		& > ul {
+			& > li {
+
+				margin-bottom: 10px;
+				&:last-child{
+					margin-bottom: 0;
+				}
+				& > a {
+					display: block;
+				}
+				i {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}

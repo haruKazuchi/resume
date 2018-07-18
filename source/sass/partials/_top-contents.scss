@@ -1,0 +1,7 @@
+.top-contents{
+	display: flex;
+	justify-content: space-between;
+	& > div {
+		width: calc((100% - 20px) / 2);
+	}
+}
