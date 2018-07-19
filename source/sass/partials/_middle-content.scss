@@ -1,0 +1,60 @@
+.middle-contents{
+	margin-top: 50px;
+	.prog-skill{
+		.skill-content{
+			dl{
+				&:first-child{
+					margin-top: 25px;
+				}
+				margin-top: 15px;
+				dt{
+					margin-bottom: 10px;
+				}
+				dd{
+					position: relative;
+					&:hover{
+						& > span {
+							opacity: 1;
+						}
+						& > progress{
+							transform-origin: 0 50%;
+							transform: scaleX(0.8);
+						}
+					}
+					& > progress[value] {　
+						&::-webkit-progress-bar{
+							transition: width .5s ease-in;
+						}
+					}
+					& > progress[value] {
+						&::-webkit-progress-value{
+							transition: width .5s ease-in;
+						}
+					}
+					& > progress{
+						&::-moz-progress-bar{
+							transition: width .5s ease-in;
+						}
+					}
+					& > progress{
+						transition: transform .3s ease-in;
+						transform-origin: 0 100%;
+						&:hover{
+							transform-origin: 0 50%;
+							transform: scaleX(0.8);
+						}
+					}
+					& > span{
+						opacity: 0;
+						font-size: 18px;
+						position: absolute;
+						right: 0;
+						top: -5px;
+						font-family: "Kazesawa-Bold";
+						transition: opacity .4s ease-in;
+					}
+				}
+			}
+		}
+	}
+}

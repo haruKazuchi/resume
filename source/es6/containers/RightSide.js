@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import WorkExp from '../components/WorkExp'
 import EduExp from '../components/EduExp'
+import ProgSkill from '../components/ProgSkill'
 
 export default class RightSide extends Component{
 	render(){
@@ -16,7 +17,7 @@ export default class RightSide extends Component{
 				</div>
 				<div className="middle-contents">
 					<div className="prog-skill">
-
+						<ProgSkill/>
 					</div>
 					<div className="soft-skill">
 

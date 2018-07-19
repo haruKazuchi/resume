@@ -1,6 +1,10 @@
 body{
 	width: 100%;
+	background-color: #eee;
 	font-family: "Kazesawa-Regular";
+	.has-text-warning{
+		color: #fec100!important;
+	}
 	.left-side{
 		padding-right: 0;
 	}
