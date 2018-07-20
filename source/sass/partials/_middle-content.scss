@@ -2,9 +2,13 @@
 	margin-top: 50px;
 	.prog-skill{
 		.skill-content{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
 			dl{
+				width: calc((100% - 20px) / 2);
 				&:first-child{
-					margin-top: 25px;
+					// margin-top: 25px;
 				}
 				margin-top: 15px;
 				dt{
@@ -54,6 +58,21 @@
 						transition: opacity .4s ease-in;
 					}
 				}
+			}
+		}
+	}
+	.soft-skill{
+		.radar-wrapper{
+			// canvas {
+			// 	margin: 0 auto;
+			// 	width: 100%!important;
+			// 	max-width: 450px;
+			// }
+			width: 100%;
+			padding: 10px 120px;
+			box-sizing: border-box;
+			@include SP {
+				padding: 10px 0;
 			}
 		}
 	}

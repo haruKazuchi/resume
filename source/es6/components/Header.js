@@ -7,6 +7,7 @@ export default class Header extends Component {
 				<div className="profile-icon"><img src="assets/image/profile-default.png"/></div>
 				<div className="profile-work"><i className="zmdi zmdi-laptop-mac"></i>Engineer</div>
 				<div className="profile-name">エレミヤ ダニ</div>
+				<div className="triangle-one"></div>
 			</div>
 		)
 	}

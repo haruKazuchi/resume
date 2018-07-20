@@ -8,16 +8,22 @@
 			justify-content: space-between;
 			flex-wrap: wrap;
 			& > li{
-				width: 100px;
-				height: 100px;
+				width: calc((100% - 20px) / 2);
+				// width: 100px;
+				// height: 100px;
 				text-align: center;
 				margin: 0 auto;
-				animation-iteration-count: infinite;
 				& > a {
 					display: block;
 					color: inherit;
+					& > span{
+						margin-top: 10px;
+						margin-bottom: 10px;
+						display: block
+					}
 					& > i{
-						font-size: 100px;
+						animation-iteration-count: infinite;
+						font-size: 60px;
 					}
 				}
 			}

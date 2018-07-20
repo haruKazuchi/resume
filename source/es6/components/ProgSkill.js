@@ -16,32 +16,14 @@ export default class ProgSkill extends Component{
 			<React.Fragment>
 				<div className="content-title">
 					<span className="icon icon-title">
-						<i className="zmdi zmdi-power"></i>
+						<i className="zmdi zmdi-case"></i>
 					</span>
-					プログラミングスキル
+					<span className="respon-txt">ソフトウェアとツールスキル</span>
 				</div>
 				<div className="content-text skill-content">
 					<dl>
 						<dt>
-							HTML
-						</dt>
-						<dd>
-							<progress className="progress is-danger" value="0" data-value="95" max="100">95%</progress>
-							<span className="has-text-danger">95%</span>
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							CSS
-						</dt>
-						<dd>
-							<progress className="progress is-danger" value="0" data-value="90" max="100">90%</progress>
-							<span className="has-text-danger">90%</span>
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							JAVASCRIPT
+							LARAVEL
 						</dt>
 						<dd>
 							<progress className="progress is-warning" value="0" data-value="88" max="100">88%</progress>
@@ -50,52 +32,16 @@ export default class ProgSkill extends Component{
 					</dl>
 					<dl>
 						<dt>
-							JQUERY
+							PHOTOSHOP
 						</dt>
 						<dd>
-							<progress className="progress is-warning" value="0" data-value="85" max="100">85%</progress>
-							<span className="has-text-warning">85%</span>
+							<progress className="progress is-success" value="0" data-value="60" max="100">60%</progress>
+							<span className="has-text-success">60%</span>
 						</dd>
 					</dl>
 					<dl>
 						<dt>
-							REACT
-						</dt>
-						<dd>
-							<progress className="progress is-warning" value="0" data-value="84" max="100">84%</progress>
-							<span className="has-text-warning">84%</span>
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							NEXT JS
-						</dt>
-						<dd>
-							<progress className="progress is-warning" value="0" data-value="80" max="100">80%</progress>
-							<span className="has-text-warning">80%</span>
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							VUE JS
-						</dt>
-						<dd>
-							<progress className="progress is-success" value="0" data-value="75" max="100">75%</progress>
-							<span className="has-text-success">75%</span>
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							REDUX
-						</dt>
-						<dd>
-							<progress className="progress is-success" value="0" data-value="72" max="100">72%</progress>
-							<span className="has-text-success">72%</span>
-						</dd>
-					</dl>
-					<dl>
-						<dt>
-							PHP
+							GIT
 						</dt>
 						<dd>
 							<progress className="progress is-warning" value="0" data-value="82" max="100">82%</progress>
@@ -104,11 +50,11 @@ export default class ProgSkill extends Component{
 					</dl>
 					<dl>
 						<dt>
-							WORDPRESS
+							ATOM
 						</dt>
 						<dd>
-							<progress className="progress is-info" value="0" data-value="57" max="100">57%</progress>
-							<span className="has-text-info">57%</span>
+							<progress className="progress is-warning" value="0" data-value="96" max="100">96%</progress>
+							<span className="has-text-warning">96%</span>
 						</dd>
 					</dl>
 				</div>

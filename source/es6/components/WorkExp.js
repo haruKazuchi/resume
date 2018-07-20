@@ -8,7 +8,7 @@ export default class WorkExp extends Component{
 					<span className="icon icon-title">
 						<i className="zmdi zmdi-graduation-cap"></i>
 					</span>
-					経歴
+					<span className="respon-txt">経歴</span>
 				</div>
 				<div className="content-text">
 					<ul>
