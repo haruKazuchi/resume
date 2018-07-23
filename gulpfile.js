@@ -49,8 +49,8 @@ gulp.task('sass',function(){
 });
 
 gulp.task('watch',function(){
-  gulp.watch([DIR.SOURCE.ES6  + '/**/*.js'], ['js']);
-  gulp.watch([DIR.SOURCE.SASS + '/**/*.scss'], ['sass']);
+  gulp.watch([DIR.SOURCE.ES6  + '/**/*.js'], ['js'], browserSync.reload);
+  gulp.watch([DIR.SOURCE.SASS + '/**/*.scss'], ['sass'], browserSync.reload);
   gulp.watch(DIR.PUBLIC.JS + '/**/*.js', browserSync.reload);
   gulp.watch(DIR.PUBLIC.CSS + '/**/*.css', browserSync.reload);
   gulp.watch(DIR.ROOT + '**/*.html', browserSync.reload);
