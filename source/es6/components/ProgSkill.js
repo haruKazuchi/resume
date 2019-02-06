@@ -26,16 +26,25 @@ export default class ProgSkill extends Component{
 							LARAVEL
 						</dt>
 						<dd>
-							<progress className="progress is-warning" value="0" data-value="88" max="100">88%</progress>
-							<span className="has-text-warning">88%</span>
+							<progress className="progress is-success" value="0" data-value="88" max="100">88%</progress>
+							<span className="has-text-warning">80%</span>
 						</dd>
 					</dl>
 					<dl>
 						<dt>
-							PHOTOSHOP
+							ADOBE PHOTOSHOP
 						</dt>
 						<dd>
 							<progress className="progress is-success" value="0" data-value="60" max="100">60%</progress>
+							<span className="has-text-success">70%</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							ADOBE XD
+						</dt>
+						<dd>
+							<progress className="progress is-warning" value="0" data-value="60" max="100">60%</progress>
 							<span className="has-text-success">60%</span>
 						</dd>
 					</dl>
@@ -44,8 +53,26 @@ export default class ProgSkill extends Component{
 							GIT
 						</dt>
 						<dd>
-							<progress className="progress is-warning" value="0" data-value="82" max="100">82%</progress>
+							<progress className="progress is-success" value="0" data-value="82" max="100">82%</progress>
 							<span className="has-text-warning">82%</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							SEQUEL PRO
+						</dt>
+						<dd>
+							<progress className="progress is-warning" value="0" data-value="82" max="100">82%</progress>
+							<span className="has-text-warning">70%</span>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							VAGRANT
+						</dt>
+						<dd>
+							<progress className="progress is-success" value="0" data-value="82" max="100">82%</progress>
+							<span className="has-text-warning">80%</span>
 						</dd>
 					</dl>
 					<dl>
@@ -53,7 +80,7 @@ export default class ProgSkill extends Component{
 							ATOM
 						</dt>
 						<dd>
-							<progress className="progress is-warning" value="0" data-value="96" max="100">96%</progress>
+							<progress className="progress is-success" value="0" data-value="96" max="100">96%</progress>
 							<span className="has-text-warning">96%</span>
 						</dd>
 					</dl>

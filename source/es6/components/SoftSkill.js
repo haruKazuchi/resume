@@ -18,10 +18,10 @@ export default class SoftSkill extends Component{
 	}
 	render(){
 		let chartData = {
-			labels: ["HTML", "CSS", "JAVASCRIPT", "JQUERY", "REACT", "NEXT JS", "VUE JS", "REDUX", "PHP", "WORDPRESS"],
+			labels: ["HTML 5", "CSS/SCSS", "JAVASCRIPT", "JQUERY", "REACT", "REACT NATIVE", "NEXT JS", "VUE JS", "REDUX", "PHP", "MYQSL", "WORDPRESS" ],
 					datasets: [{
 						label: "Skill",
-						data: [95,90,88,85,84,80,75,72,82,57],
+						data: [95,90,88,85,84,80,80,70,72,82,70,60],
 						borderColor: "#21aba5"
 					}]
 		}
